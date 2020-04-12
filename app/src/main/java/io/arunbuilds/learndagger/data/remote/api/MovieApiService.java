@@ -1,6 +1,6 @@
-package io.arunbuilds.learndagger.remote.api;
+package io.arunbuilds.learndagger.data.remote.api;
 
-import io.arunbuilds.learndagger.remote.model.MovieApiResponse;
+import io.arunbuilds.learndagger.data.remote.model.MovieApiResponse;
 import io.reactivex.Observable;
 import retrofit2.http.GET;
 

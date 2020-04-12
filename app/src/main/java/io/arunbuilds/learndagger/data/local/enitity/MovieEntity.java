@@ -1,4 +1,4 @@
-package io.arunbuilds.learndagger.local.enitity;
+package io.arunbuilds.learndagger.data.local.enitity;
 
 import android.os.Parcel;
 import android.os.Parcelable;

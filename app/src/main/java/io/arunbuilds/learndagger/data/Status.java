@@ -1,4 +1,4 @@
-package io.arunbuilds.learndagger;
+package io.arunbuilds.learndagger.data;
 
 public enum Status {
     SUCCESS,

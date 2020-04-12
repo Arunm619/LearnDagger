@@ -1,11 +1,11 @@
-package io.arunbuilds.learndagger;
+package io.arunbuilds.learndagger.data;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import static io.arunbuilds.learndagger.Status.ERROR;
-import static io.arunbuilds.learndagger.Status.LOADING;
-import static io.arunbuilds.learndagger.Status.SUCCESS;
+import static io.arunbuilds.learndagger.data.Status.ERROR;
+import static io.arunbuilds.learndagger.data.Status.LOADING;
+import static io.arunbuilds.learndagger.data.Status.SUCCESS;
 
 public class Resource<T> {
     @NonNull

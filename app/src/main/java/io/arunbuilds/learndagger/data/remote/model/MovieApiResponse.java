@@ -1,11 +1,11 @@
-package io.arunbuilds.learndagger.remote.model;
+package io.arunbuilds.learndagger.data.remote.model;
 
 import com.google.gson.annotations.SerializedName;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import io.arunbuilds.learndagger.local.enitity.MovieEntity;
+import io.arunbuilds.learndagger.data.local.enitity.MovieEntity;
 
 public class MovieApiResponse {
 

@@ -1,4 +1,4 @@
-package io.arunbuilds.learndagger.repository;
+package io.arunbuilds.learndagger.data.repository;
 
 import androidx.annotation.NonNull;
 
@@ -6,12 +6,12 @@ import java.util.List;
 
 import javax.inject.Singleton;
 
-import io.arunbuilds.learndagger.NetworkBoundResource;
-import io.arunbuilds.learndagger.Resource;
-import io.arunbuilds.learndagger.local.dao.MovieDao;
-import io.arunbuilds.learndagger.local.enitity.MovieEntity;
-import io.arunbuilds.learndagger.remote.api.MovieApiService;
-import io.arunbuilds.learndagger.remote.model.MovieApiResponse;
+import io.arunbuilds.learndagger.data.NetworkBoundResource;
+import io.arunbuilds.learndagger.data.Resource;
+import io.arunbuilds.learndagger.data.local.dao.MovieDao;
+import io.arunbuilds.learndagger.data.local.enitity.MovieEntity;
+import io.arunbuilds.learndagger.data.remote.api.MovieApiService;
+import io.arunbuilds.learndagger.data.remote.model.MovieApiResponse;
 import io.reactivex.Flowable;
 import io.reactivex.Observable;
 

@@ -1,4 +1,4 @@
-package io.arunbuilds.learndagger.remote.interceptor;
+package io.arunbuilds.learndagger.data.remote.interceptor;
 
 import java.io.IOException;
 
