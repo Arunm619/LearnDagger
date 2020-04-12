@@ -1,4 +1,4 @@
-package io.arunbuilds.learndagger.dao;
+package io.arunbuilds.learndagger.local.dao;
 
 import androidx.room.Dao;
 import androidx.room.Insert;
@@ -7,7 +7,7 @@ import androidx.room.Query;
 
 import java.util.List;
 
-import io.arunbuilds.learndagger.enitity.MovieEntity;
+import io.arunbuilds.learndagger.local.enitity.MovieEntity;
 
 @Dao
 public interface MovieDao {
